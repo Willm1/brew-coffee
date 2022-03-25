@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee brew</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c4c8a44700.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <h2 id="logo">
+            <span class="material-icons-outlined">
+                Brew Coffee Guide
+            </span></a>
+        </h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="background">
+        <div class="container">
+            <h5 class="yellow smallfont thick"> Please enter your contact details to get regular coffee updates from us</h5>
+            <form action="contact_page.php">
+
+                <label for="fname"> Name</label>
+                <input type="text" id="fname" name="name" placeholder="">
+
+                <label for="email">Email Address</label>
+                <input type="text" id="email" name="email" placeholder="">
+
+                <label for="favecoffee">Favourite Coffee</label>
+                <select id="favecoffee" name="favecoffee">
+                    <option value="Americano">Americano</option>
+                    <option value="Flat White">Flat White</option>
+                    <option value="Latte">Latte</option>
+                    <option value="Espressp">Espresso</option>
+                    <option value="Cappucino">Cappucino</option>
+                    <option value="Cortado">Cortado</option>
+                </select>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copywright Brew Coffee Guide</p>
+        <p>About | Privacy Policy | Contact</p>
+    </div>
+</body>
+
+</html>
